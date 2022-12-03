@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/laopo.css"/>
+	</head>
+	<body>
+		
+		<div class="main"></div>
+		<!--设置单选隐藏-->
+		<input type="radio" id="front" name="c1" hidden="hidden"/>
+		<input type="radio" id="back" name="c1" hidden="hidden"/>
+		<input type="radio" id="left" name="c1" hidden="hidden"/>
+		<input type="radio" id="right" name="c1" hidden="hidden"/>
+		<input type="radio" id="top" name="c1" hidden="hidden"/>
+		<input type="radio" id="bottom" name="c1" hidden="hidden"/>
+		<input type="radio" id="big" name="c1" hidden="hidden"/>
+		<input type="radio" id="small" name="c1" hidden="hidden"/>
+		
+			
+		<!--立方体-->
+		<div class="lifang">
+			<div class="page front"></div>
+			<div class="page back"></div>
+			<div class="page left"></div>
+			<div class="page right"></div>
+			<div class="page top"></div>
+			<div class="page bottom"></div>
+		</div>
+		
+		<!--label绑定自定义单选框，并绑定切换功能-->
+		<div class="choose">
+			<label for="front" class="btn">前</label>
+			<label for="back" class="btn">后</label>
+			<label for="left" class="btn">左</label>
+			<label for="right" class="btn">右</label>
+			<label for="top" class="btn">上</label>
+			<label for="bottom" class="btn">下</label>
+			<label for="big" class="btn">大</label>
+			<label for="small" class="btn">小</label>
+		</div>
+		
+		
+	</body>
+</html>
